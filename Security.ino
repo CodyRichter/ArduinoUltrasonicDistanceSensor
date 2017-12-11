@@ -79,6 +79,10 @@
    {
      setupMode = true;
      scanningMode = false;
+     if (proximityRange == defaultRange)
+     {
+     proximityRange = defaultRange - 1; 
+     }
    }
    else
    {
